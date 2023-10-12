@@ -12,7 +12,6 @@ DB_NAME =  os.environ.get('dbsparta')
 
 client = MongoClient('mongodb+srv://zack:Lahmanasayatahu333@cluster0.qtpexyu.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp')
 db = client.dbsparta
-
 app = Flask(__name__)
 
 @app.route('/')
